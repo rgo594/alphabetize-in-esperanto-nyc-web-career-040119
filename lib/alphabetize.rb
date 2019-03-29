@@ -1,3 +1,5 @@
+require 'pry'
+
 def alphabetize(sentences_array)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   sentences_array.sort_by do |sentence|
